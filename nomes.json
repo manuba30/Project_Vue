@@ -1,0 +1,31 @@
+{ 
+"name" : "equipe",
+"spots": 5,
+"members": [
+  {
+    "name": "pessoa um",
+    "email": "pessoaum@email",
+    "status": "Active"
+  },
+  {
+    "name": "pessoa dois",
+    "email": "pessoadois@email.com",
+    "status": "Active"
+  },
+  {
+    "name": "pessoa tres",
+    "email": "pessoatres@email.com",
+    "status": "Active"
+  },
+  {
+    "name": "pessoa quatro",
+    "email": "pessoaquatro@email.com",
+    "status": "Active"
+  },
+  {
+    "name": "pessoa cinco",
+    "email": "pessoacinco@email.com",
+    "status": "Active"
+  }
+]
+}
