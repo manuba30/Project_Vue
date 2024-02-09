@@ -18,5 +18,5 @@ defineProps({
     </tbody>
   </table>
 
-  <p class="text-right text-gray-600 italic" v-show="team.members.length === team.spots">Sem vagas. Necessario atualizaçao para mais.</p>
+  <p class="text-right text-gray-600 italic" v-show="team.members.length === team.spots">Sem vagas. Necessario atualizaçao para mais vagas.</p>
 </template>
