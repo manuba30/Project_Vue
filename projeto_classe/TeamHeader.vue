@@ -1,4 +1,6 @@
 <script setup>
+import AjouterMemberModal from './ajouterMemberModal.vue';
+
   defineProps({
     team: Object
   })
@@ -7,8 +9,7 @@
 <template>
   <header class="flex justify-between">
     <div>
-      <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400"
-              :disabled="team.members.length === team.spots">Novo Membro ({{ team.spots - team.members.length }} Tem vagas)</button>
+      <AjouterMemberModal></AjouterMemberModal>
     </div>
 
     <div>
